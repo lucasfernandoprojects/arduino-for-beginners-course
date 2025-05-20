@@ -50,11 +50,11 @@ We’re using the **[MindPlus Arduino Coding Kit](https://www.dfrobot.com/produc
 The repository is divided into **24 folders**, one for each lesson:
 ```bash
 arduino-for-beginners/
-├── 📁Lesson01_Introduction/
-├── 📁Lesson02_Story_of_Arduino/
-├── 📁Lesson03_Blink_LED/
+├── 📁lesson01-why-learn-arduino/
+├── 📁Lesson02-story-of-arduino/
+├── 📁Lesson03-arduino-ide-and-mind-plus/
 ├── ...
-├── 📁Lesson24_Final_Project/
+├── 📁Lesson24-continuing-your-arduino-journey/
 ```
 
 Each folder typically contains:
