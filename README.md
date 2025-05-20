@@ -51,10 +51,10 @@ The repository is divided into **24 folders**, one for each lesson:
 ```bash
 arduino-for-beginners/
 ├── 📁lesson01-why-learn-arduino/
-├── 📁Lesson02-story-of-arduino/
-├── 📁Lesson03-arduino-ide-and-mind-plus/
+├── 📁lesson02-story-of-arduino/
+├── 📁lesson03-arduino-ide-and-mind-plus/
 ├── ...
-├── 📁Lesson24-continuing-your-arduino-journey/
+├── 📁lesson24-continuing-your-arduino-journey/
 ```
 
 Each folder typically contains:
