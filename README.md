@@ -31,7 +31,15 @@ This course is proudly sponsored by **[DFRobot](https://www.dfrobot.com/)** — 
 
 We’re using the **[MindPlus Arduino Coding Kit](https://www.dfrobot.com/product-2360.html)** provided by DFRobot throughout the course.
 
-![MindPlus Arduino Coding Kit](https://dfimg.dfrobot.com/enshop/KIT0152-EN/KIT0152-EN_Main_01_150x100.jpg)
+<div style="display: flex; flex-wrap: wrap;">
+    <img src="https://github.com/lucasfernandoprojects/arduino-for-beginners-course/blob/main/photos/1.jpg" width="400" height="250" style="margin: 10px;">
+    <img src="https://github.com/lucasfernandoprojects/arduino-for-beginners-course/blob/main/photos/2.jpg" width="400" height="250" style="margin: 10px;">
+    <img src="https://github.com/lucasfernandoprojects/arduino-for-beginners-course/blob/main/photos/3.jpg" width="400" height="250" style="margin: 10px;">
+    <img src="https://github.com/lucasfernandoprojects/arduino-for-beginners-course/blob/main/photos/4.jpg" width="400" height="250" style="margin: 10px;">
+    <img src="https://github.com/lucasfernandoprojects/arduino-for-beginners-course/blob/main/photos/5.jpg" width="400" height="250" style="margin: 10px;">
+    <img src="https://github.com/lucasfernandoprojects/arduino-for-beginners-course/blob/main/photos/6.jpg" width="400" height="250" style="margin: 10px;">
+</div>
+</br>
 
 > 🙌 Big thanks to DFRobot for supporting this course and helping me bring electronics education to everyone.
 
