@@ -48,13 +48,13 @@ We’re using the **[MindPlus Arduino Coding Kit](https://www.dfrobot.com/produc
 ## 📁 Repository Structure
 
 The repository is divided into **24 folders**, one for each lesson:
-
+```bash
 arduino-for-beginners/
-├── Lesson01_Introduction/
-├── Lesson02_Story_of_Arduino/
-├── Lesson03_Blink_LED/
+├── 📁Lesson01_Introduction/
+├── 📁Lesson02_Story_of_Arduino/
+├── 📁Lesson03_Blink_LED/
 ├── ...
-├── Lesson24_Final_Project/
+├── 📁Lesson24_Final_Project/
 
 Each folder typically contains:
 
