@@ -55,6 +55,7 @@ arduino-for-beginners/
 ├── 📁Lesson03_Blink_LED/
 ├── ...
 ├── 📁Lesson24_Final_Project/
+```
 
 Each folder typically contains:
 
