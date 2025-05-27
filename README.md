@@ -2,7 +2,7 @@
 
 Welcome to the official GitHub repository for the **Arduino for Beginners** YouTube course! This is a **24-lesson video series** designed to teach you how to use Arduino from scratch — even if you've never touched electronics or written a single line of code before.
 
-> 🔗 **Watch the full course on YouTube**: [Arduino for Beginners Playlist](https://www.youtube.com/@lucasfernandochannel/featured)
+> 🔗 **Watch the full course on YouTube**: [Arduino for Beginners Playlist](https://www.youtube.com/watch?v=ZX3ldpCIbEA&list=PLUt1dNXy1_ZMEH6s7_BInZTrq_74upFwS)
 
 ---
 
@@ -21,7 +21,7 @@ This course was built to help **beginners** learn how to create amazing real-wor
 
 ## 🎁 Sponsored by DFRobot
 
-This course is proudly sponsored by **[DFRobot](https://www.dfrobot.com/)** — a global leader in **STEM education kits**, **Arduino boards**, **electronics for makers**, and even **industrial IoT solutions**.
+This course is proudly sponsored by **[DFRobot](https://www.dfrobot.com/)** - a global leader in **STEM education kits**, **Arduino boards**, **electronics for makers**, and even **industrial IoT solutions**.
 
 ### ✨ What DFRobot Offers:
 - Arduino boards and compatible sensors
@@ -47,14 +47,16 @@ We’re using the **[MindPlus Arduino Coding Kit](https://www.dfrobot.com/produc
 
 ## 📁 Repository Structure
 
-The repository is divided into **24 folders**, one for each lesson:
+The repository is divided into **5 folders**, that represent the modules. Each one contains one directory for each lesson:
 ```bash
 arduino-for-beginners/
-├── 📁lesson01-why-learn-arduino/
-├── 📁lesson02-story-of-arduino/
-├── 📁lesson03-arduino-ide-and-mind-plus/
+├── 📁module-1
+    ├── 📁lesson-1-why-learn-arduino/
+    ├── 📁lesson-2-story-of-arduino/
+    ├── 📁lesson-3-arduino-ide-and-mind-plus/
 ├── ...
-├── 📁lesson24-continuing-your-arduino-journey/
+├── 📁module-5
+    ├── 📁lesson-24-continuing-your-arduino-journey/
 ```
 
 Each folder typically contains:
@@ -103,6 +105,6 @@ If you found this course helpful:
 
 Thanks for being here — let’s build something amazing together.
 
-See you in [Lesson 1](https://www.youtube.com/@lucasfernandochannel/featured)!
+See you in [Lesson 1](https://www.youtube.com/watch?v=ZX3ldpCIbEA&t=1s)!
 
 Lucas ✌️
