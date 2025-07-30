@@ -1,5 +1,5 @@
 // Lesson 8 - Serial Monitor (Arduino for Beginners)
-// Control leds from Serial Monitor
+// Control LEDs from Serial Monitor
 // Valid commands:
 // LED RED ON - Turn on the red LED
 // LED BLUE ON - Turn on the blue LED
