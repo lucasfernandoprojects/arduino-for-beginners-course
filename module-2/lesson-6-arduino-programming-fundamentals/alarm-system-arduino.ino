@@ -5,8 +5,8 @@
 const int redLED = 2;
 const int blueLED = 3;
 const int buzzer = 4;
-const int trigPin = 5;
-const int echoPin = 6;
+const int echoPin = 5;
+const int trigPin = 6;
 
 // Variables
 long duration;
