@@ -1,4 +1,6 @@
-
+// Lesson 9 - Learn Arduino coding (Arduino for Beginners)
+// A simple that uses a potentiometer (rotation sensor)
+// to change the colors of a RGB LED
 
 #include <Adafruit_NeoPixel.h>
 
