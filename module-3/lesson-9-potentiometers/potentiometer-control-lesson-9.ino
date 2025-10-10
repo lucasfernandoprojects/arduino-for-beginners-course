@@ -1,4 +1,4 @@
-// Lesson 9 - Learn Arduino coding (Arduino for Beginners)
+// Lesson 9 - Arduino for Beginners
 // A simple system that uses a potentiometer (rotation sensor)
 // to change the colors of a RGB LED
 
