@@ -1,3 +1,7 @@
+// Lesson 11 - Arduino for Beginners
+// Use an analog sound sensor
+// to turn on or off a LED
+
 const int ledPin = 2;
 const int buttonPin = 3;
 const int soundPin = A5;
