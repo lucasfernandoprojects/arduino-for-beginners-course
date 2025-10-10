@@ -1,5 +1,5 @@
-// Lesson 10 - Learn Arduino coding (Arduino for Beginners)
-// Uses a light sensor (photoresistor)
+// Lesson 10 - Arduino for Beginners
+// Use a light sensor (photoresistor)
 // to turn on or off a LED
 
 int ledPin = 2;    
