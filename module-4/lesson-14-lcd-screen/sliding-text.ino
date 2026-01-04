@@ -4,10 +4,10 @@
 
 #include <DFRobot_RGBLCD1602.h>
 
-DFRobot_RGBLCD1602 lcd(0x60, 16, 2);  // Use 0x6B if needed
+DFRobot_RGBLCD1602 lcd(0x60, 16, 2);
 
-// Message to scroll
-String message = "Like, subscribe and share this lesson with a friend who is trying to learn Arduino   ";
+String message =
+  "Like, subscribe and share this lesson with a friend who is trying to learn Arduino    ";
 
 int position = 0;
 
@@ -20,16 +20,17 @@ void setup() {
 void loop() {
   lcd.setCursor(0, 0);
 
-  // Extract 16 characters starting from 'position'
-  String visibleText = message.substring(position, position + 16);
-  lcd.print(visibleText);
+  // Wrap substring manually for infinite scrolling
+  String visibleText = "";
 
-  position++;
-
-  // Restart when we reach the end
-  if (position > message.length() - 16) {
-    position = 0;
+  for (int i = 0; i < 16; i++) {
+    int index = (position + i) % message.length();
+    visibleText += message[index];
   }
 
-  delay(300); // Controls scroll speed
+  lcd.print(visibleText);
+
+  position = (position + 1) % message.length();
+
+  delay(300); // Scroll speed
 }
