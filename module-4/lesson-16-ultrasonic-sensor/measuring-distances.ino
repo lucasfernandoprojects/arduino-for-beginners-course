@@ -1,6 +1,3 @@
-// Lesson 16 - Arduino for Beginners
-// Measuring distances with the ultrasonic sensor
-
 #include <DFRobot_RGBLCD1602.h>
 
 // LCD (use 0x6B if your module is V1.1)
@@ -50,22 +47,22 @@ void loop() {
     lcd.print("No object found");
     delay(300);
     return;
-  }
-
-  // Convert to distance (cm)
-  distance = duration * 0.034 / 2;
-
-  // Check detection zone
-  if (distance < MIN_DISTANCE || distance > MAX_DISTANCE) {
-    lcd.clear();
-    lcd.print("No object found");
   } else {
-    lcd.clear();
-    lcd.setCursor(0, 0);
-    lcd.print("Distance:");
-    lcd.setCursor(0, 1);
-    lcd.print(distance, 1);
-    lcd.print(" cm");
+    // Convert to distance (cm)
+    distance = duration * 0.034 / 2;
+
+    // Check detection zone
+    if (distance < MIN_DISTANCE || distance > MAX_DISTANCE) {
+      lcd.clear();
+      lcd.print("No object found");
+    } else {
+      lcd.clear();
+      lcd.setCursor(0, 0);
+      lcd.print("Distance:");
+      lcd.setCursor(0, 1);
+      lcd.print(distance, 1);
+      lcd.print(" cm");
+    }
   }
 
   delay(300);
