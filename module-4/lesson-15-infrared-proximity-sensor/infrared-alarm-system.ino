@@ -31,8 +31,8 @@ void loop() {
 }
 
 void triggerAlarm() {
-  // Blink LEDs alternately for 2 seconds
-  for (int i = 0; i < 10; i++) {   // 10 × 0.2 = 2s total
+  // Blink LEDs alternately for 4 seconds
+  for (int i = 0; i < 10; i++) {   // 10 × 0.4 = 4s total
     digitalWrite(RED_LED_PIN, HIGH);
     digitalWrite(BLUE_LED_PIN, LOW);
     delay(200);
