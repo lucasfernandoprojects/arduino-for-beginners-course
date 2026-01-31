@@ -1,3 +1,5 @@
+// Lesson #15 - Measure distance using the ultrasonic sensor
+
 #include <DFRobot_RGBLCD1602.h>
 
 // LCD (use 0x6B if your module is V1.1)
