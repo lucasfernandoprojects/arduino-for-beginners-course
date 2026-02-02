@@ -1,4 +1,4 @@
-// Lesson #15 - Measure distance using the ultrasonic sensor
+// Lesson #16 - Measure distance using the ultrasonic sensor
 
 #include <DFRobot_RGBLCD1602.h>
 
