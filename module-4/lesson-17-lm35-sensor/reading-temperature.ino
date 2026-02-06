@@ -1,3 +1,5 @@
+// Lesson #17 - Reading temperature with the LM35 sensor
+
 #include <Wire.h>
 #include <DFRobot_RGBLCD1602.h>
 
