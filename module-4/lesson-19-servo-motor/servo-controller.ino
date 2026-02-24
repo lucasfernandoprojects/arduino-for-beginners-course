@@ -4,7 +4,7 @@
 #include <DFRobot_RGBLCD1602.h>
 #include <Servo.h>
 
-#define SERVO_PIN 2
+#define SERVO_PIN 3
 #define POT_PIN A3
 
 DFRobot_RGBLCD1602 lcd(0x60, 16, 2);
