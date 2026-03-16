@@ -1,4 +1,4 @@
-// Lesson #20 - Arduino for Beginners series
+// Lesson #21 - Arduino for Beginners series
 // Smart home model from cardboard
 
 #include <Wire.h>
