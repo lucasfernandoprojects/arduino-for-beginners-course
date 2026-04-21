@@ -1,3 +1,6 @@
+// Lesson #22 - Arduino for Beginners series
+// Control a LED from Bluetooth
+
 const int ledPin = 2;  // LED connected to D2
 char receivedChar;
 
