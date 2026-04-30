@@ -5,7 +5,7 @@
 // ===== WIFI =====
 char ssid[] = "WIFI_NAME";
 char password[] = "WIFI_PASSWORD";
-char apiKey[] = "THINGSSPEAK_WRITER_API_KEY";
+char apiKey[] = "THINGSPEAK_WRITER_API_KEY";
 
 // ===== WIFI MODULE =====
 SoftwareSerial wifi(4, 5); // RX, TX
